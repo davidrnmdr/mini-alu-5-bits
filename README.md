@@ -4,7 +4,7 @@ Welcome to my mini CPU brain, a mini Arithmetic Logic Unit (ALU) made in WiRedPa
 
 This ALU performs 11 operations with two (or one) operators up to 5 bits:
 
-| Op Code<sub>10</sub> | Op Code<sub>10</sub> | Operation |
+| Op Code<sub>10</sub> | Op Code<sub>2</sub> | Operation |
 | -------- | ------- | ------- |
 | 0 | 0000 | A - B |
 | 1 | 0001 | A = B |
