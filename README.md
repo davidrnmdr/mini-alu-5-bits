@@ -20,5 +20,9 @@ This ALU performs 11 operations with two (or one) operators up to 5 bits:
 | 9 | 1001 | B' |
 | 10 | 1010 | A x B |
 
+Internally, it is made by recursively stacking together 5 1-bit-ALUs and some 16x1 multiplexers. Although we got 11 available operations, a 16x1 MUX is needed because, as we know, the immediate smaller standard MUX is 8x1 which is insufficient to select our 11 possibilities. In the bellow image we can se the inside of it:
+
+![ALU](https://i.imgur.com/q0xqgGu.png)
+
 
 
